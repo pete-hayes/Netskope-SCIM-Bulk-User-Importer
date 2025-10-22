@@ -2,7 +2,7 @@
 .SYNOPSIS
   Bulk-adds users to Netskope via SCIM API (PowerShell version).
 .EXAMPLE
-  PS> .\add_users_scim.ps1 whistler.goskope.com 'eyJhbGciOi...' '.\users.csv'
+  PS> .\add_users_scim.ps1 example.goskope.com 'abc123def456ghi789jk' '.\users.csv'
 #>
 
 param (
