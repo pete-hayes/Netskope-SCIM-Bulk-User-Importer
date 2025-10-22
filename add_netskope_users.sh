@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # ---------------------------------------------------------------------------
-# Usage: ./add_users_scim.sh <TENANT_FQDN> <API_TOKEN> <CSV_FILE>
-# Example: ./add_users_scim.sh example.goskope.com eyJhbGciOi... users.csv
+# Usage: ./add_netskope_users.sh <TENANT_FQDN> <API_TOKEN> <CSV_FILE>
+# Example: ./add_netskope_users.sh example.goskope.com abc123def456ghi789jk users.csv
 # CSV format: email,first_name,last_name
 # ---------------------------------------------------------------------------
 
