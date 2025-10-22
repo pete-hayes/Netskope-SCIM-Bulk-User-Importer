@@ -3,7 +3,7 @@ Automate the bulk creation of users in a Netskope tenant using the SCIM API.
 
 ## Features
 - Supports both **macOS (Bash)** and **Windows (PowerShell)**.
-- Accepts CSV user list
+- Accepts a CSV user list.
 - Validates CSV input and skips invalid or blank lines.
 - Handles authentication, API error codes, and summary reporting.
 
